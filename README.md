@@ -3,11 +3,8 @@
 
 ## Aim
 
-Write your aim here.
+To represent a real-world traffic signal control system as a Markov Decision Process (MDP) by defining its states, actions, transition probabilities, reward function, and implementing it using Python dictionaries.
 
-Example:
-
-> To identify a real-world sequential decision-making problem and represent it formally as a Markov Decision Process by defining its states, actions, rewards, transitions, and Python representation.
 
 ---
 
@@ -15,9 +12,7 @@ Example:
 
 ### Problem Description
 
-Write your answer here.
-
-Describe the real-world application that you selected.
+Consider a traffic signal control system at a road intersection. The traffic signal acts as an agent that decides whether to keep the current signal or switch it to reduce vehicle congestion and waiting time. The objective is to minimize traffic delays and maximize smooth traffic flow.
 
 
 ---
@@ -44,7 +39,6 @@ Where:
 
 ## State Space
 
-Write your answer here.
 
 The state space should list all possible situations in which the agent can exist.
 
@@ -52,10 +46,9 @@ Example format:
 
 ```text
 S = {
-    State 1,
-    State 2,
-    State 3,
-    ...
+    Low Traffic,
+    Medium Traffic,
+    High Traffic
 }
 ```
 
