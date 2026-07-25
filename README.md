@@ -24,6 +24,8 @@ $$
 
 Where:
 
+
+
 | Symbol | Meaning |
 |---|---|
 | $S$ | Set of states |
@@ -106,6 +108,7 @@ Traffic remains High = -10
 Unnecessary signal switch = -2
 
 ---
+
 
 ## Graphical Representation
 
